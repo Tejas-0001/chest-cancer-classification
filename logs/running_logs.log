@@ -167,3 +167,46 @@ x==========x]
 [2024-05-19 01:40:45,618: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-05-19 03:44:17,124: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-19 03:44:17,125: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-19 03:44:17,830: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080]
+[2024-05-19 03:44:17,830: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 03:44:32,141: INFO: _internal: 127.0.0.1 - - [19/May/2024 03:44:32] "GET / HTTP/1.1" 200 -]
+[2024-05-19 04:02:52,184: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-19 04:02:52,184: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-19 04:02:52,648: INFO: stage_02_prepare_base_model: *******************]
+[2024-05-19 04:02:52,648: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-19 04:02:52,648: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-19 04:02:52,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 04:02:52,664: INFO: common: created directory at: artifacts]
+[2024-05-19 04:02:52,664: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-19 04:02:53,164: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-19 04:02:53,335: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-19 04:02:56,433: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-19 04:02:56,433: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-19 04:02:56,855: INFO: stage_03_model_trainer: *******************]
+[2024-05-19 04:02:56,855: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-05-19 04:02:56,855: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-19 04:02:56,855: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 04:02:56,855: INFO: common: created directory at: artifacts]
+[2024-05-19 04:02:56,855: INFO: common: created directory at: artifacts\training]
+[2024-05-19 04:07:11,241: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-19 04:07:14,288: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-19 04:07:14,288: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-19 04:07:15,882: INFO: stage_04_model_evaluation: *******************]
+[2024-05-19 04:07:15,882: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-19 04:07:15,882: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-19 04:07:15,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 04:07:15,882: INFO: common: created directory at: artifacts]
+[2024-05-19 04:07:20,142: INFO: common: json file saved at: scores.json]
+[2024-05-19 04:07:20,142: INFO: common: json file saved at: scores.json]
+[2024-05-19 04:07:20,142: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
