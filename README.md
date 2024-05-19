@@ -1,5 +1,5 @@
 # 💉🩺Chest cancer classification
-#### MLflow, AWS (ECR, EC2), Docker, DAGSHUB, DVC, Github Actions, Deep Learning
+#### MLflow, AWS (ECR, EC2), Docker, DAGSHUB, DVC, Github Actions, Deep Learning, Flask
 
 ---
 ## CI/CD Workflows:
