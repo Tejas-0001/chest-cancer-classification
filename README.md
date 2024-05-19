@@ -16,9 +16,9 @@
 ---
 ### Dagshub Credentials setup in environment:
 \
-MLFLOW_TRACKING_URI=https://dagshub.com/sraj28383/chest-cancer-classification.mlflow \
-MLFLOW_TRACKING_USERNAME=sraj28383 \
-MLFLOW_TRACKING_PASSWORD=1e30d8370940cc032c8380ef5f9dfc994190ee6f \
+MLFLOW_TRACKING_URI=your_dagshub_url \
+MLFLOW_TRACKING_USERNAME=your_username \
+MLFLOW_TRACKING_PASSWORD=your_password \
 ```bash
 #conda env config vars set MLFLOW_TRACKING_URI="your URI"
 conda env config vars set MLFLOW_TRACKING_URI=https://dagshub.com/sraj28383/chest-cancer-classification.mlflow
